@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Fixed viewport meta -->
+    <title>Mahalakshmi Portfolio</title>
+    <link rel="stylesheet" href="maha.css">
+    <script src="https://kit.fontawesome.com/20ff2204d0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo-text"><span>M</span>aha.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Maha</span><br>From BIET</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------about------ -->
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="daivastyle1.jpg" alt="Daiva Photo"> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a 4th year B.Tech CSE student passionate about becoming a Full Stack Web Developer.
+                    <p>I'm currently learning Java Full Stack Web Development.
+                    </p>
+                      <p> and working with MySQL to build and manage databases.</p>
+                      I'm a curious, growth-driven individual who enjoys exploring ideas beyond the surface. Outside of work, I find inspiration in books, art, and everyday observations that spark creativity and reflection.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills',event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience',event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education',event)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Java (proficient), familiar with object-oriented programming and core concepts</li>
+                            <li><span>Java Full Stack Web Development</span><br>Building Responsive websites using HTML, CSS, JS,React.js,Vue.js
+                            </li>
+                            <li><span>Database Management</span><br>Working with MYSQL for data storage and queries</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Hackathons</span><br>Participated in WEBTECH Hackathon</li>
+                            <li><span>developing projects</span><br>Working on personal projects to sharpen skills</li>
+                            <li><span>Intern @ XYZ</span><br>no experience</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bhimavaram Institute Of Engineering and Technology</span><br>B.Tech in CSE</li>
+                            <li><span>Intermediate</span><br>SRI ADITYA JUNIOR College Bhimavaram</li>
+                            <li><span>SSC</span><br>DNR English Medium High School Bhimavaram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services-------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I'm a 3rd year B.Tech CSE student passionate about becoming a Java Full Stack Web Developer.I'm a curious and motivated learner currently focused on building a solid foundation in Java programming. I enjoy problem-solving and continuously expanding my understanding of how things work behind the scenes.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p>
+                        I'm a 3rd year B.Tech CSE student passionate about becoming a Java Full Stack Web Developer.I'm a curious and motivated learner currently focused on building a solid foundation in Java programming. I enjoy problem-solving and continuously expanding my understanding of how things work behind the scenes.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-diagram"></i>
+                    <h2>Data Structures and Algorithm</h2>
+                    <p>I'm a 3rd year B.Tech CSE student passionate about becoming a Java Full Stack Web Developer.I'm a curious and motivated learner currently focused on building a solid foundation in Java programming. I enjoy problem-solving and continuously expanding my understanding of how things work behind the scenes.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------portfolio------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>Designed and developed my own responsive portfolio using HTML, CSS, and JavaScript to
+                            showcase my skills, projects, and journey in tech.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Hackathon project</h3>
+                        <p>Participated in a college hackathon where we built our college website. I contributed to the
+                            frontend and logic design.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Ongoing Projects</h3>
+                        <p>Currently working on small full-stack projects using HTML, CSS, JS, and exploring React for
+                            dynamic user interfaces. Also practicing backend logic using Java and learning MySQL for
+                            databases.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- --------contact section-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <a href="mailto:mahalakshmi26185@gmail.com" class="email-link">mahalakshmi26185@gmail.com</a>
+                    </p>
+                    <p class="contact-phone">
+                        <i class="fa-solid fa-phone-volume phone-icon"></i>
+                        <strong class="phone-number">+91 837466577</strong><br>
+                        <a href="tel:+91837466577" class="call-link">Call</a> |
+                        <a href="sms:+91837466577" class="sms-link">Message</a>
+                    </p>
+                    <div class="social-icons">
+                        <a target="_blank"
+                            href=""><i
+                                class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/maha-lakshmi-p-9a235a350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a target="_blank" href=""><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="mahacv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="return validateForm()" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="copyright">
+                <p>Copyright&nbsp;<i class="fa-solid fa-copyright"></i>&nbsp;2025 Maha. All rights reserved.</p>
+                <p>Built with 💻 & ❤️ using HTML, CSS, and JavaScript.</p>
+            </div>
+        </footer>
+    </div>
+    <!-- Script section -->
+    <script src="maha.js"></script>
+</body>
+
+</html>
